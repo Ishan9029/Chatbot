@@ -1,0 +1,18 @@
+# Secrets
+.streamlit/secrets.toml
+
+# Virtual Environment
+botenv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Chat history (optional)
+chats.json

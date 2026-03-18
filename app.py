@@ -51,8 +51,8 @@ def query_groq(messages):
 # =========================
 # PAGE SETUP
 # =========================
-st.set_page_config(page_title="Ishan BOT", layout="centered")
-st.header("🤖 Ishan BOT")
+st.set_page_config(page_title="ThinkBot", layout="centered")
+st.header("🤖 ThinkBot")
 
 # =========================
 # LOAD / SAVE

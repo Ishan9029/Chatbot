@@ -51,8 +51,16 @@ def query_groq(messages):
 # =========================
 # PAGE SETUP
 # =========================
-st.set_page_config(page_title="ThinkBot", layout="centered")
-st.header("🤖 ThinkBot")
+st.set_page_config(page_title="ThinkBot AI", layout="centered")
+st.markdown(
+    """
+    <h1 style='text-align: center;'>🤖 ThinkBot AI</h1>
+    <p style='text-align: center; font-size:18px; color: gray;'>
+    Your fast AI assistant powered by Groq
+    </p>
+    """,
+    unsafe_allow_html=True
+)
 
 # =========================
 # LOAD / SAVE
